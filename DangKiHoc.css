@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+i{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: white;
+}
+ul  li{
+    margin: 0 10px;
+}
+ul  li  a{
+    font-size: 20px;
+    display: block;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    transition: all 0.3s ease-in-out;
+}
+
+#menu{
+    background: white;
+}
+#dame > li > a{
+    font-size: 20px;
+    display: block;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    transition: all 0.3s ease-in-out;
+    color: black;
+}
+.container-fluid{
+    box-shadow: 0px 1px 5px black;
+}
+
+#dame > li a:hover{
+    border-bottom: 2px solid black;
+    color: #1877f2;
+}
+.dropdown{
+    display: inline;
+    position: relative;
+}
+.dropdown-content{
+    position: absolute;
+    display: none;
+    z-index: 1;  
+}
+.dropdown-item{
+    border-bottom: 2px solid white; 
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a{
+    font-size: 14px;
+    padding: 10px 50px 10px 10px;
+    border-bottom: 2px solid white; 
+    transition: all 0.5s ease-in-out;
+}
+
+/* đăng kí */
+
+ #dangkihoc{
+    margin: 50px auto;
+}
+#dangkihoc h1{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    color: #333333;
+    width: 160px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #2a5262;
+}
+#dangkihoc p{
+    text-align: justify;
+    font-size: 14px;
+    color: #333333;
+}
+#dangkihoc h2{
+    margin-top: 30px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #006182;
+}
+#dangkihoc span{
+    color: rgb(179, 178, 178);
+}
+
+.row{
+    margin-bottom: 15px;
+}
+
+#inputGroupSelect01{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    color: #777777;
+}
+label{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#dang-ki a:hover{
+    background: white;
+    color: #006182;
+}
+#dang-ki a{
+    background: #006182;
+}
+.bt a{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border: 2px solid #006182;
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+#nhap-lai a{
+    background: white;
+    color: #006182;
+}
+#nhap-lai a:hover{
+    color: white;
+    background: #006182;
+}
+/* v   */
+
+/* footer */
+
+#footer {
+    padding-top: 20px;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+#footer .info {}
+
+#footer .info h1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: red;
+}
+
+#footer .info .dchi,
+.phone {
+    margin-bottom: 10px;
+    color: red;
+
+}
+
+#footer .info .dchi {
+    color: black;
+    font-size: 16px;
+}
+
+#footer .info .phone i {
+    color: #777777;
+}
+
+#footer .info .phone {
+    color: black;
+    font-size: 16px;
+}
+
+#footer #lienKet {}
+
+#footer #lienKet h2 {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: red;
+}
+
+#footer #lienKet #media-footer {
+    color: white;
+}
+
+#footer #lienKet #media-footer ol {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-left: -47px;
+}
+
+#footer #lienKet #media-footer ol li {
+    margin: 10px;
+}
+
+#footer #lienKet #media-footer ol li a {
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+
+#footer #lienKet #media-footer ol li a#youtube {
+    color: #c02219;
+}
+
+#footer #lienKet #media-footer ol li a#youtube:hover {
+    color: #ff0000;
+}
+
+#footer #lienKet #media-footer ol li a#facebook {
+    color: #3b5998;
+}
+
+#footer #lienKet #media-footer ol li a#forum img {
+    width: 175%;
+    margin-top: -1px;
+}
+
+#footer #lienKet #media-footer ol li a#facebook:hover {
+    color: #1877f2;
+}
+
+#footer #lienKet #media-footer ol li a:hover img:nth-child(1) {
+    transform: translateY(-30px);
+    opacity: 0;
+}
+
+#footer #lienKet #media-footer ol li a:hover img:nth-child(2) {
+    transform: translateY(-30px);
+    opacity: 1;
+}
+
+#footer #lienKet #media-footer ol li a#forum:hover img:nth-child(1) {
+    transform: translateY(-35px);
+    opacity: 0;
+}
+
+#footer #lienKet #media-footer ol li a#forum:hover img:nth-child(2) {
+    transform: translateY(-35px);
+    opacity: 1;
+}
+
+#footer #lienKet #media-footer ol li a img:nth-child(2) {
+    opacity: 0;
+}
+
+#footer #lienKet #media-footer ol li a img {
+    width: 150%;
+    float: left;
+    line-height: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+#footer .face {
+    text-align: center;
+}
+
+#footer .face .fb-page {
+    text-align: center;
+}
+
+#footer .face h1 {
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+/* mau xanh */
+#coppyrice {
+    width: 100%;
+    background: #006182;
+    height: 55px;
+}
+
+#coppyrice p {
+    text-align: center;
+    line-height: 55px;
+    font-size: 15px;
+    color: white;
+}
