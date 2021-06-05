@@ -21,8 +21,6 @@ body {
     background: white;
 }
 
-ul li {
-}
 @media (max-width: 768px) {
     #menu #imgmenu{
         width: 60%;
@@ -41,15 +39,30 @@ ul li {
 
 }
 @media (max-width: 1550px){
-    #dame li a{
-        padding: 18px;
+    #dame li > a{
+        padding:18px;
         font-size: 18px;
     }
     #menu #imgmenu{
         margin-right: 100px;
         width: 300px;
     }
-
+    .dropdown-content a{
+        font-size: 18px;
+        text-transform: uppercase;
+        padding: 10px 100px 10px 20px;
+        border-bottom: 2px solid white; 
+        transition: all 0.5s ease-in-out;
+    }
+    #act-KH h1 #kh {
+        font-size: 36px;
+    } 
+    #act-KH h1 #cn {
+        font-size: 30px;
+    }
+    .name-act-KH {
+        width: 600px;
+    }
 }
 @media (max-width: 1470px){
     #dame li a{
@@ -63,6 +76,15 @@ ul li {
         margin-right: 70px;
         width: 260px;
     }
+    #act-KH h1 #kh {
+        font-size: 34px;
+    } 
+    #act-KH h1 #cn {
+        font-size: 28px;
+    }
+    .name-act-KH {
+        width: 400px;
+    }
 }
 @media (max-width: 1360px){
     #dame li a{
@@ -72,6 +94,10 @@ ul li {
     #menu #imgmenu{
         margin-right: 50px;
         width: 230px;
+    }
+    #menu #imgmenu{
+        margin-right: 70px;
+        width: 260px;
     }
 }
 @media (max-width: 1200px){
@@ -88,6 +114,25 @@ ul li {
     #menu #imgmenu{
         margin-right: 30px;
         width: 180px;
+    }
+}
+@media (max-width: 576px){
+    #dame li a{
+        padding: 8px;
+        font-size: 15px;
+    }
+    #menu #imgmenu{
+        margin-right: 30px;
+        width: 180px;
+    }
+    #act-KH h1 #kh {
+        font-size: 30px;
+    } 
+    #act-KH h1 #cn {
+        font-size: 25px;
+    }
+    .name-act-KH {
+        width: 300px;
     }
 }
 #menu{
@@ -200,7 +245,6 @@ a .card-text {
 
 
 .name-act-KH {
-    width: 18rem;
     padding: 0;
     margin: 50px auto;
     border-right: 1px solid #d8221a;
@@ -212,13 +256,10 @@ a .card-text {
 #act-KH h1 #kh {
     font-weight: bold;
     color: #d8221a;
-    font-size: 2.5rem;
     text-transform: uppercase;
-
 }
 
 #act-KH h1 #cn {
-    font-size: 1.8rem;
     text-transform: uppercase;
     color: #333333;
 }

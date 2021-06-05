@@ -8,18 +8,97 @@ a {
     text-decoration: none;
 }
 
-ul  li{
-    margin: 0 10px;
+@media (max-width: 768px) {
+    #menu #imgmenu{
+        width: 60%;
+    }
 }
 
-body {
-    background: white;
+@media (min-width: 1550px){
+    #dame li a{
+        padding: 20px;
+        font-size: 20px;
+    }
+    #menu #imgmenu{
+        margin-right: 100px;
+        width: 335px;
+    }
+
+}
+@media (max-width: 1550px){
+    #dame li > a{
+        padding:18px;
+        font-size: 18px;
+    }
+    #menu #imgmenu{
+        margin-right: 100px;
+        width: 300px;
+    }
+    .dropdown-content a{
+        font-size: 18px;
+        text-transform: uppercase;
+        padding: 10px 100px 10px 20px;
+        border-bottom: 2px solid white; 
+        transition: all 0.5s ease-in-out;
+    }
+}
+@media (max-width: 1470px){
+    #dame li a{
+        padding: 18px;
+        font-size: 17px;
+    }
+    p{
+        font-size: 14px;
+    }
+    #menu #imgmenu{
+        margin-right: 70px;
+        width: 260px;
+    }
+}
+@media (max-width: 1360px){
+    #dame li a{
+        padding: 15px;
+        font-size: 16px;
+    }
+    #menu #imgmenu{
+        margin-right: 50px;
+        width: 230px;
+    }
+    #menu #imgmenu{
+        margin-right: 70px;
+        width: 260px;
+    }
+}
+@media (max-width: 1200px){
+    #menu #imgmenu{
+        margin-right: 40px;
+        width: 200px;
+    }
+}
+@media (max-width: 1150px){
+    #dame li a{
+        padding: 8px;
+        font-size: 15px;
+    }
+    #menu #imgmenu{
+        margin-right: 30px;
+        width: 180px;
+    }
+}
+@media (max-width: 576px){
+    #dame li a{
+        padding: 8px;
+        font-size: 15px;
+    }
+    #menu #imgmenu{
+        margin-right: 30px;
+        width: 180px;
+    }
 }
 #menu{
     background: white;
 }
 #dame > li > a{
-    font-size: 20px;
     display: block;
     text-transform: uppercase;
     border-bottom: 2px solid white;
@@ -50,7 +129,6 @@ body {
     display: block;
 }
 .dropdown-content a{
-    font-size: 18px;
     text-transform: uppercase;
     padding: 10px 130px 10px 20px;
     border-bottom: 2px solid white; 
@@ -252,8 +330,7 @@ ul.GT li{
 }
 
 #footer #lienKet #media-footer ol li a#forum img {
-    width: 175%;
-    margin-top: -1px;
+    width: 145%;
 }
 
 #footer #lienKet #media-footer ol li a#facebook:hover {
@@ -271,12 +348,12 @@ ul.GT li{
 }
 
 #footer #lienKet #media-footer ol li a#forum:hover img:nth-child(1) {
-    transform: translateY(-35px);
+    transform: translateY(-28px);
     opacity: 0;
 }
 
 #footer #lienKet #media-footer ol li a#forum:hover img:nth-child(2) {
-    transform: translateY(-35px);
+    transform: translateY(-28px);
     opacity: 1;
 }
 
