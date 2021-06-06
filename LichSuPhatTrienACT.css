@@ -209,63 +209,6 @@ ul.GT li{
     margin-top: 20px;
 }
 
-/* #wp-content {
-    width: 100%;
-    display: flex;
-    margin-top: 20px;
-
-
-}
-
-#wp-content #content {
-    width: 80%;
-    text-align: center;
-    padding: 0px 20px;
-}
-
-#wp-content #sidebar {
-    width: 20%;
-    margin-top: 120px;
-
-}
-
-#wp-content #sidebar .box {
-    margin: 0px 20px;
-    padding: 0px 30px;
-    border-radius: 10px;
-    background: rgb(247, 244, 244);
-}
-
-#wp-content #sidebar .box h1 {
-    border-bottom: 1px solid #333;
-    padding: 10px 0px;
-    text-align: center;
-}
-
-#wp-content #sidebar .box ul li {
-    border-bottom: 1px solid #333;
-
-}
-
-#wp-content #sidebar .box ul li:hover {
-    border-bottom: 1px solid #333;
-    padding: 10px 0px;
-    background: rgb(150, 138, 75);
-    border-radius: 10px;
-}
-
-#wp-content #sidebar .box .last {
-    border: 0px;
-}
-
-#wp-content #sidebar .box ul li a {
-    font-size: 18px;
-
-}
-
-#wp-content #sidebar .box ul li a:hover {
-    color: white;
-} */
 
 /* end content */
 #footer {
