@@ -16,49 +16,117 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>Tin tức</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light  position-sticky d-block"
-        style="top: 0;margin: 0;padding: 0;z-index: 999;">
-        <div class="container-fluid" id="menu">
-            <a class="navbar-brand" href="#" id="imgmenu"><img
-                    src="https://res.cloudinary.com/tiendat-1392-hvact/image/upload/v1622646347/images/actlogo1_h0adem.png"
-                    alt="" width="100%"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-1 mb-lg-0" style="margin-top: 49px;margin-left: -20px;" id="dame">
-                    <li class="nav-item"><a href="TrangChu.html" class="nav-link">Trang chủ</a></li>
-                    <li class="nav-item"><a href="LichSuPhatTrienACT.html" class="nav-link">Giới thiệu</a></li>
-                    <li class="nav-item dropdown">
-                        <a href="ThongTinKhoaHocTrang1.html" class="nav-link" id="navbarDropdown">Khóa học & khai
-                            giảng</a>
-                        <div class="dropdown-content shadow-sm mb-2 bg-white">
-                            <a href="" class="dropdown-item"><i class="fas fa-laptop-code"></i> Lập trình</a>
-                            <a href="" class="dropdown-item"><i class="fas fa-network-wired"></i> Mạng máy tính</a>
-                        </div>
-                    </li>
-                    <li class="nav-item"><a href="TinTucTrang1.html" class="nav-link">Tin tức</a></li>
-                    <li class="nav-item dropdown">
-                        <a href="" class="nav-link" id="navbarDropdown">Liên Hệ</a>
-                        <div class="dropdown-content shadow mb-4 bg-white">
-                            <a href="" class="dropdown-item"><i class="fab fa-facebook-square"></i> Fanpage</a>
-                            <a href="" class="dropdown-item"><i class="fas fa-phone"></i> Hotline</a>
-                            <a href="" class="dropdown-item"><i class="fas fa-envelope"></i> Gmail</a>
-                        </div>
-                    </li>
-                    <li class="nav-item"><a href="DangKiHoc.html" class="nav-link">Đăng kí học</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Tài liệu</a></li>
-                    <li class="nav-item"><a href="" class="nav-link"><i class="fas fa-search"></i></a></li>
+    <div class="container-fluid" style="height: 25px;background: #fef8ef;">
+        <div class="container d-flex" style="justify-content: space-between;" id="up">
+            <div id="ff">
+                <a href="">hocvienact.edu.vn</a>
+            </div>
+            <div id="ee">
+                <ul class="d-flex">
+                    <li style="margin-right: 20px;"><a href=""><i class="fas fa-phone"></i> 0964 952 889</a></li>
+                    <li style="margin-right: 20px;"><a href=""><i class="fab fa-facebook-square"></i> Fanpage</a></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> hotro@hocvienact.edu.vn</a></li>
                 </ul>
             </div>
+            <div id="ee2">
+                <ul class="d-flex">
+                    <li style="margin-right: 10px;"><a data-toggle="collapse" href="#hot" aria-expanded="false"
+                            aria-controls="hot" title="hotline"><i class="fas fa-phone"></i></a></li>
+                    <div id="hot" class="collapse">
+                        <h3>0964952889</h3>
+                    </div>
+                    <li style="margin-right: 10px;"><a href="" title="fanpage"><i
+                                class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="" title="gmail"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light  position-sticky d-block"
+        style="top: 0;margin: 0;padding: 0;z-index: 999;box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+        <div class="container-fluid" id="menu">
+            <div class="container d-flex">
+                <a class="navbar-brand" href="#" id="imglogo"><img src="https://res.cloudinary.com/tiendat-1392-hvact/image/upload/v1625896975/images/159_h1vvch.png" alt="" style="width: 100%;"></a>
+                <div id="menu1">
+                    <ul class="navbar-nav me-auto mb-1 mb-lg-0" id="dame">
+                        <li class="nav-item"><a href="TrangChu.html" class="nav-link">Trang chủ</a></li>
+                        <li class="nav-item"><a href="LichSuPhatTrienACT.html" class="nav-link">Giới thiệu</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="ThongTinKhoaHocTrang1.html" class="nav-link" id="navbarDropdown">Khóa học & khai
+                                giảng</a>
+                            <div class="dropdown-content shadow-sm mb-2 bg-white" style="border-top: 2px solid black;">
+                                <a href="" class="dropdown-item"><i class="fas fa-laptop-code"></i> Lập trình</a>
+                                <a href="" class="dropdown-item"><i class="fas fa-network-wired"></i> Mạng máy tính</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="TinTucTrang1.html" class="nav-link">Tin tức</a></li>
+                        <!-- <li class="nav-item">
+                            <a href="" class="nav-link" id="navbarDropdown">Liên Hệ</a>
+                        </li> -->
+                        <li class="nav-item"><a href="DangKiHoc.html" class="nav-link">Đăng kí học</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Tài liệu</a></li>
+
+                    </ul>
+                </div>
+                <div class="d-flex" id="tim-kiem">
+                    <input type="text" class="form-control" placeholder="Tim kiếm" aria-label=""
+                        aria-describedby="basic-addon1">
+                    <a href="" class="nav-link" id="menu-search"><i class="fas fa-search"
+                            style="margin-top: 15px;font-size: 13px;float:right;color: black;"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="imgmenu" style="top: 0;margin: 0;padding: 0;z-index: 999;background: white;">
+            <div class="container">
+                <div id="iconmenu" class="d-flex" style="justify-content: space-between;">
+                    <div style="margin-top: 20px;">
+                        <a data-toggle="collapse" href="#menu2" aria-expanded="false" aria-controls="menu2">
+                            <img src="https://res.cloudinary.com/tiendat-1392-hvact/image/upload/v1625898300/images/ic-bar_ma2a5p.png" alt=""
+                                style="width: 50%;border-radius: 50%;border: 1px solid #100f1f;padding: 5px;"></i>
+                        </a>
+                    </div>
+                    <a class="navbar-brand" href="#"><img src="https://res.cloudinary.com/tiendat-1392-hvact/image/upload/v1625896975/images/159_h1vvch.png" alt=""
+                            style="width: 100%;width: 150px;"></a>
+                </div>
+            </div>
+        </div>
+        <div class="collapse position-sticky" id="menu2" style="position: absolute;z-index: 999;background: white;">
+            <ul>
+                <li class="nav-item"><a href="TrangChu.html" class="nav-link">Trang chủ</a></li>
+                <li class="nav-item"><a href="LichSuPhatTrienACT.html" class="nav-link">Giới thiệu</a></li>
+                <li class="nav-item dropdown">
+                    <a href="ThongTinKhoaHocTrang1.html" class="nav-link" id="navbarDropdown">Khóa học & khai
+                        giảng</a>
+                </li>
+                <li class="nav-item"><a href="TinTucTrang1.html" class="nav-link">Tin tức</a></li>
+                <!-- <li class="nav-item">
+                    <a href="" class="nav-link" id="navbarDropdown">Liên Hệ</a>
+                </li> -->
+                <li class="nav-item"><a href="DangKiHoc.html" class="nav-link">Đăng kí học</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Tài liệu</a></li>
+                <li class="nav-item">
+                    <div class="d-flex">
+
+                        <a href="" class="nav-link" id="menu-search"><i class="fas fa-search"
+                                style="margin-top: 0px;font-size: 15px;position: relative;"></i></a>
+                        <input type="text" class="form-control" placeholder="Tim kiếm" aria-label=""
+                            aria-describedby="basic-addon1"
+                            style="border: none;border-radius: 20px;background: #f5f5f5;margin-right: 10px;height: 40px;margin-left: -40px;padding-left: 40px;">
+                    </div>
+                </li>
+            </ul>
         </div>
     </nav>
 
@@ -245,87 +313,94 @@
         </div>
     </div>
     <!-- <end></end> -->
-    <div class="container-fluid"
-        style="background: #f3f2f2;background-image: url('images/bread.png');background-size: cover;">
+    <div class="container-fluid" style="background: #eaf0f5;height: 70px;margin-top: 50px;">
+        <div class="container"  id="menu3">
+            <ul class="d-flex" style="text-decoration: none;">
+                <li>
+                    <a href="">Khóa học</a>
+                </li>
+                <li>
+                    <a href="">
+                        Tin tức
+                    </a>
+                </li>
+                <li>
+                    <a href="">Đăng kí học</a>
+                </li>
+                <li>
+                    <a href="">Ưu đãi</a>
+                </li>
+                <li>
+                    <a href="">
+                        Thư viện
+                    </a>
+                </li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid">
         <div class="container" id="footer">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
+                    <a class="navbar-brand" href="#" id="imglogo"><img src="https://res.cloudinary.com/tiendat-1392-hvact/image/upload/v1625896975/images/159_h1vvch.png" alt=""
+                            style="width: 100%;"></a>
+                    
+                </div>
+                <div class="col-md-6" style="border-left: 1px dotted #1877f2;">
                     <div class="info">
-                        <h1>Học viện công nghệ thông tin ACT</h1>
                         <div class="dc">
                             <div class="dchi">
                                 <img src="https://res.cloudinary.com/tiendat-1392-hvact/image/upload/v1622646350/images/address_rhkptz.png"
                                     alt="">
-                                Phòng 401 - Nhà TA4- Học viện kĩ thuật Mật Mã <br> 141 Chiến Thắng - Tân Triều -
-                                Thanh
-                                Trì - Hà Nội.
+                                <span>
+                                    Phòng 401 - Nhà TA4- Học viện kĩ thuật Mật Mã <br> 141 Chiến Thắng - Tân Triều -
+                                    Thanh
+                                    Trì - Hà Nội.
+                                </span>
                             </div>
                             <div class="phone">
                                 <i class="fas fa-envelope"></i>
-                                hotro@hocvienact.edu.vn
+                                <span>
+                                    <span style="color: #1877f2;font-size: 14px;">Email:</span> hotro@hocvienact.edu.vn
+                                </span>
                             </div>
                             <div class="phone">
                                 <img src="https://res.cloudinary.com/tiendat-1392-hvact/image/upload/v1622646359/images/phone_fzeefc.png"
                                     alt="">
-                                0964 952 889
+                                <span>
+                                    <span style="color: #1877f2;font-size: 14px;">Liên Hệ:</span> 0964 952 889
+                                </span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div id="lienKet">
-                        <h2>Social media</h2>
-                        <div id="media-footer">
-                            <ol>
-                                <li style="">
-                                    <a href="" id="youtube" title="Youtube">
-                                        <img src="https://res.cloudinary.com/tiendat-1392-hvact/image/upload/v1622646356/images/img12_es9ms3.png"
-                                            alt="">
-                                        <img src="https://res.cloudinary.com/tiendat-1392-hvact/image/upload/v1622646356/images/img12_es9ms3.png"
-                                            alt="">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" id="facebook" title="Facebook">
-                                        <img src="https://res.cloudinary.com/tiendat-1392-hvact/image/upload/v1622646357/images/img5_si0vks.png"
-                                            alt="">
-                                        <img src="https://res.cloudinary.com/tiendat-1392-hvact/image/upload/v1622646357/images/img5_si0vks.png"
-                                            alt="">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" id="forum" title="Forum ACT">
-                                        <img src="https://res.cloudinary.com/tiendat-1392-hvact/image/upload/v1622646353/images/forumIcon_otoqk6_wgsttt.png"
-                                            alt="Forum ACT">
-                                        <img src="https://res.cloudinary.com/tiendat-1392-hvact/image/upload/v1622646353/images/forumIcon_otoqk6_wgsttt.png"
-                                            alt="Forum ACT">
-                                    </a>
-                                </li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="face">
-                        <h1>Fanpage ACT</h1>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <div style="padding-bottom: 20px;" class="fb-page"
-                                data-href="https://www.facebook.com/HocVienAct" data-tabs="timeline" data-width=""
-                                data-height="130px" data-small-header="false" data-adapt-container-width="true"
-                                data-hide-cover="false" data-show-facepile="true">
-                                <blockquote cite="https://www.facebook.com/HocVienAct" class="fb-xfbml-parse-ignore"><a
-                                        href="https://www.facebook.com/HocVienAct">Học viện Công nghệ thông tin ACT</a>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-2" style="border-left: 1px dotted #1877f2;">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="fab fa-facebook-square"></i><span>
+                                    Fanpage</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-youtube"></i>
+                                <span>Youtube</span></a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fab fa-google-plus"></i>
+                                <span>google+</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+            <div style="margin-top: 20px;">
+                <i class="far fa-copyright"></i>
+            <span style="font-size: 14px;">Copyright by ACTACAD 2015. All Rights Reserved</span>
+            </div>
         </div>
-    </div>
-    </div>
-    <div id="coppyrice">
-        <p>copyrice ©ACT. Học viện công nghệ thông tin ACT</p>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
